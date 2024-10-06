@@ -1,0 +1,81 @@
+/* Color del background de la página */
+body {
+    background-color: #b0b0b0; /* Fondo gris */
+    font-family: Arial, sans-serif;
+}
+
+/* Color y tamaño de la calculadora */
+.calculadora {
+    background-color: #333; /* Fondo de la calculadora */
+    border-radius: 10px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+    width: 400px; /* Ajusta el tamaño de la calculadora */
+    margin:auto; /* Centrar la calculadora */
+}
+
+/* Opciones del recuadro resultado en la calculadora */
+#resultado {
+    height: 50px;
+    font-size: 24px;
+    text-align: right;
+    background-color: #e9ecef; /* Pantalla gris claro */
+    border: none; /* Sin borde */
+    border-radius: 5px;
+    color: black; /* Color del texto */
+}
+
+/* Detalles de los botones */
+.btn {
+    font-size: 20px; /* Tamaño de los botones */
+    padding: 10px; /* Relleno de los botones */
+    padding-inline: 25px;
+    margin-top: 8px;
+    background-color: #e0e0e0; /* Color de fondo de los botones */
+    border: 1px solid #ccc; /* Bordes de los botones */
+    color: black; /* Color del texto de los botones */
+}
+
+/* Cambio de color al colocar el cursor sobre el botón */
+.btn:hover {
+    background-color: #d0d0d0a2; /* Color al pasar el mouse sobre los botones */
+}
+
+.btn-danger {
+    font-size: 20px; /* Tamaño de los botones */
+    padding: 10px; /* Relleno de los botones */
+    padding-inline: 15px;
+    margin-top: 8px;
+    background-color: #e0e0e0; /* Color de fondo de los botones */
+    border: 1px solid #ccc; /* Bordes de los botones */
+    color: black; /* Color del texto de los botones */
+}
+
+.btn-danger:hover {
+    background-color: #ff0808c5; /* Color al pasar el mouse sobre los botones */
+}
+
+/* Detalles botones de operación */
+.btn-danger {
+    background-color: #f44336; /* Color para los botones de operación */
+    color: white;
+}
+
+/* Botón de realizar operación */
+.btn-success {
+    background-color: #4caf50;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #4caf4f73;
+}
+
+/* Botón de borrar */
+.btn-warning {
+    background-color: #ff9800; /* Color para el botón de limpiar */
+    color: white;
+}
+
+.btn-warning:hover {
+    background-color: #ff9900a6;
+}
