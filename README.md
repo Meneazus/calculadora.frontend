@@ -31,3 +31,11 @@ Este proyecto es una calculadora web que simula el funcionamiento de una calcula
 
    ```bash
    git clone git@github.com:Meneazus/calculadora.frontend.git
+
+   Abrir Visual Studio Code
+
+2. **Abrir Visual Studio Code**
+
+3. **Abrir directorio del proyecto clonado**
+
+4. **Utilizar extensión Go Live de VSCode**
